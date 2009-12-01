@@ -2,6 +2,29 @@
 
 This gem is designed to map US postal codes to the timezone.  The timezone strings are based on ActiveSupport::TimeZone settings that include basic DST information.  If used with Rails these timezones will handle DST changes on their own.
 
+== Installation
+
+ gem install zip_to_timezone
+
+This gem is hosted on gemcutter so you may need to add it as a source:
+
+ gem install gemcutter
+ gem tumble
+
+== Usage
+
+This is super simple to use:
+
+ ZipToTimezone.get_timezone_for('91304') # => "Pacific Time (US & Canada)"
+
+== How it works
+
+This uses Trei longest prefix matching to speed up the searching.  This means that all zip codes that start with 90 will be in California and therefore are in Pacific Time.  If I need to match on full zip codes in some states to differentiate timezones I can do that (eg: Kansas or Indiana) by just adding more specific entires.
+
+== Note on accuracy
+
+This gem combines two things that kind of suck to make them suck less.  To do this though I had to make a lot of guesses.  Please let me know if there are bad mappings so I can fix them.  My data is imperfect and in some places outright wrong.  The goal of the project was to handle the 95% case and hopefully grow it to be more accurate over time.
+
 == Note on Patches/Pull Requests
 
 * Fork the project.

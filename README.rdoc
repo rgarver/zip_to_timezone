@@ -25,6 +25,11 @@ This uses Trei longest prefix matching to speed up the searching.  This means th
 
 This gem combines two things that kind of suck to make them suck less.  To do this though I had to make a lot of guesses.  Please let me know if there are bad mappings so I can fix them.  My data is imperfect and in some places outright wrong.  The goal of the project was to handle the 95% case and hopefully grow it to be more accurate over time.
 
+== References
+
+* http://www.worldtimezone.com/time-usa12.php
+* http://en.wikipedia.org/wiki/ZIP_code_prefixes
+
 == Note on Patches/Pull Requests
 
 * Fork the project.

@@ -1,9 +1,9 @@
 = zip_to_timezone
 
-Description goes here.
+This gem is designed to map US postal codes to the timezone.  The timezone strings are based on ActiveSupport::TimeZone settings that include basic DST information.  If used with Rails these timezones will handle DST changes on their own.
 
 == Note on Patches/Pull Requests
- 
+
 * Fork the project.
 * Make your feature addition or bug fix.
 * Add tests for it. This is important so I don't break it in a

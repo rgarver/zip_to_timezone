@@ -7,10 +7,11 @@ begin
     gem.name = "zip_to_timezone"
     gem.summary = %Q{TODO: one-line summary of your gem}
     gem.description = %Q{TODO: longer description of your gem}
-    gem.email = "rgarver@elctech.com"
+    gem.email = "ragarver@gmail.com"
     gem.homepage = "http://github.com/rgarver/zip_to_timezone"
     gem.authors = ["Ryan Garver"]
     gem.add_development_dependency "rspec", ">= 1.2.9"
+    gem.add_dependency "algorithms", ">=0.3"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new

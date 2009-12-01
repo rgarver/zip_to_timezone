@@ -1,9 +1,4 @@
-begin
-  require 'algorithms'
-rescue LoadError
-  require 'rubygems'
-  require 'algorithms'
-end
+require 'algorithms'
 
 class ZipToTimezone
   MAPPINGS = {

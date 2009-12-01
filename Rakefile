@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "zip_to_timezone"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Map US postal codes to US timezones}
+    gem.description = %Q{Map US postal codes to US timezones.  Compatible with Rails.}
     gem.email = "ragarver@gmail.com"
     gem.homepage = "http://github.com/rgarver/zip_to_timezone"
     gem.authors = ["Ryan Garver"]

@@ -1,4 +1,5 @@
 require 'algorithms'
+require 'zip_to_timezone/version'
 
 class ZipToTimezone
   MAPPINGS = {

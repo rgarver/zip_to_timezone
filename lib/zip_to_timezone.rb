@@ -13,6 +13,7 @@ class ZipToTimezone
       '832'..'837', # => ID
       '840'..'847', # => UT
       '870'..'875', # => NM
+      '882', # => Roswell, NM
       '885', '799', # => El Paso, TX
       '979', # => East OR
       '865', # => North East AZ

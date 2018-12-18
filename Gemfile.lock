@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    zip_to_timezone (0.1.0)
+    zip_to_timezone (0.2.0)
       algorithms (~> 0.6.1)
 
 GEM

@@ -1,5 +1,7 @@
 = zip_to_timezone
 
+{<img src="https://travis-ci.com/rgarver/zip_to_timezone.svg?branch=master" alt="Build Status" />}[https://travis-ci.com/rgarver/zip_to_timezone]
+
 This gem is designed to map US postal codes to the timezone.  The timezone
 strings are based on ActiveSupport::TimeZone settings that include basic DST
 information.  If used with Rails these timezones will handle DST changes on

@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_development_dependency(%q<rake>, ["~> 12.3.2"])
-  s.add_development_dependency(%q<rdoc>, ["~> 6.0.4"])
+  s.add_development_dependency(%q<rdoc>, "~> 6.5.0")
   s.add_development_dependency(%q<rspec>, ["~> 3.8.0"])
   s.add_runtime_dependency(%q<algorithms>, ["~> 0.6.1"])
 end
